@@ -22,6 +22,18 @@ switch ($page) {
     case "ubah":
         include "pages/ubah.php";
         break;
+    case "karyawan":
+        include "karyawan/karyawan.php";
+        break;
+    case "tambahkaryawan":
+        include "karyawan/tambahkaryawan.php";
+        break;
+    case "hapuskaryawan":
+        include "karyawan/hapuskaryawan.php";
+        break;   
+    case "editkaryawan":
+        include "karyawan/editkaryawan.php";
+        break;
     default:
         include "pages/404.php";
         break;
