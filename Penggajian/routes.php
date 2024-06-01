@@ -34,6 +34,21 @@ switch ($page) {
     case "editkaryawan":
         include "karyawan/editkaryawan.php";
         break;
+    case "blnthngaji":
+        include "penggajian/blnthngaji.php";
+        break;
+    case "penggajian":
+        include "penggajian/penggajian.php";
+        break;
+    case "pilihkaryawan":
+        include "penggajian/pilihkaryawan.php";
+        break;
+    case "penggajiantambah":
+        include "penggajian/penggajiantambah.php";
+        break;
+    case "hapusgaji":
+        include "penggajian/hapusgaji.php";
+        break;
     default:
         include "pages/404.php";
         break;
